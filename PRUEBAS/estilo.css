@@ -31,11 +31,11 @@ header h1{
 main form {
     display: inline-block;
     text-align: left;
-    border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 30px 40px;
+    padding: 30px;
     background-color: white;
     margin-top: 60px;
+    box-shadow: #333;
 }
 
 form div {
@@ -44,9 +44,8 @@ form div {
 
 form label {
     display: inline-block;
-    width: 140px;
-    vertical-align: top;
-    font-size: 0.9rem;
+    width: 190px;
+    font-size: 1rem;
     color: #555;
 }
 
