@@ -48,8 +48,8 @@
         </form>
     </main>
 
-    <php?  /*como se llama la variable del id del alumno*/
-        <option value="1">TIPO</option>
+    <php?  
+        <option value="1">TIPO</option>   */con tener uno solo como plantilla, ya podemos acceder a los otros a partir de los value, que es lo que obtiene nuestro codigo*/
     ?>
 
 </body>
