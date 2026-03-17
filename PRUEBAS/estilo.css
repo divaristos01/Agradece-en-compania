@@ -10,6 +10,7 @@ html{
 body{
     width: 100%;
     height: auto;
+    text-align: center;
 }
 
 header{
@@ -27,7 +28,46 @@ header h1{
     font-size: 3rem;
 }
 
-main form{
+main form {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 30px 40px;
     background-color: white;
-    
+    margin-top: 60px;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+
+form label {
+    display: inline-block;
+    width: 140px;
+    vertical-align: top;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+form input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 0.9rem;
+    width: 200px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    display: block;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background-color: #555;
 }
