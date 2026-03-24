@@ -1,0 +1,72 @@
+html{
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('imagen/fondo.png');
+    background-size: cover; /*hace que no se me repita la imagen y ocupa todo el fonso*/
+}
+
+body{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+main{
+    width: 800px;
+}
+
+header h1{
+    color: #006ea4;
+    font-size: 3rem;
+}
+
+main form {
+    display: inline-block;
+    text-align: left;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: white;
+    margin-top: 60px;
+    box-shadow: #333;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+
+form label {
+    display: inline-block;
+    width: 190px;
+    font-size: 1rem;
+    color: #555;
+}
+
+form input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 0.9rem;
+    width: 200px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    display: block;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background-color: #555;
+}

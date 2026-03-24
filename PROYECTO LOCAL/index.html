@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO DE SESIÓN</title>
+    <link rel="stylesheet" href="PRUEBAS/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>AGRADECE EN COMPAÑÍA</h1>
+    </header>
+    <main>
+        <form action="iniciosesion.php" method="POST">
+            <div>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" name="correo" id="correo" required>
+            </div>
+            <div>
+                <label for="contra">Contraseña:</label>
+                <input type="password" name="contra" id="contra" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
