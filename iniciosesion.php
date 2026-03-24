@@ -13,7 +13,7 @@
   //Conecta con la base de datos
     $conexion=conectar(); 
 
-    $sql="'SELECT idAlumno FROM ALUMNOS WHERE correo='".$correo."' AND contra='".$contra."';"
+    $sql="'SELECT idAlumno FROM ALUMNOS WHERE correo='".$correo."' AND foto='".$contra."';"
 
     echo $sql;
     echo '<br/>';
