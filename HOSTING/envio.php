@@ -1,7 +1,6 @@
 <?php
 require 'configdbl.php';
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
+
 $conexion = new mysqli(SERVIDOR, USUARIO, PASSWORD, BBDD);
 $conexion->set_charset("utf8");
 

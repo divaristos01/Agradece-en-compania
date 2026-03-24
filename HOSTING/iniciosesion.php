@@ -3,8 +3,7 @@
   session_start();
   //Necesitar hacer include o require del archivo que tiene la conexión
   require 'configdbl.php';
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
+
     $correo=$_POST["correo"];
     $contra=$_POST["contra"];
 
