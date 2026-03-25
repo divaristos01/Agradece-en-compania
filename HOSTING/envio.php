@@ -24,7 +24,7 @@ $resultado = $conexion->query($sql);
         <ul>
             <li><a href="envio.php">AGRADECER</a></li>
             <li><a href="">RECIBIR</a></li>
-            <li><a href="index.html">CERRAR SESIÓN</a></li>
+            <li><a href="cerrarsesion.php">CERRAR SESIÓN</a></li>
         </ul>
     </nav>
     <main>
