@@ -25,9 +25,9 @@
     $resultado=$conexion->query($sql);	
 
     if ($conexion->affected_rows > 0){
-      echo '<b>MENSAJE ENVIADO CORRECTAMENTE<b/>';
+      echo '<b>MENSAJE ENVIADO CORRECTAMENTE</b>';
 
   } else {
-    echo '<b>MENSAJE NO ENVIADO<b/>';
+    echo '<b>MENSAJE NO ENVIADO</b>';
 }
 ?>
