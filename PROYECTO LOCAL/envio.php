@@ -23,7 +23,7 @@ $resultado = $conexion->query($sql);
     <nav id="navegador">
         <ul>
             <li><a href="envio.php">AGRADECER</a></li>
-            <li><a href="">RECIBIR</a></li>
+            <li><a href="recibir.html">RECIBIR</a></li>
             <li><a href="cerrarsesion.php">CERRAR SESIÓN</a></li>
         </ul>
     </nav>

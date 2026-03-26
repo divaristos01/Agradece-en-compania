@@ -93,3 +93,30 @@ button {
 button:hover {
     background-color: #005f8f;
 }
+
+#recibir{
+    background-color: rgb(254, 234, 210);
+    margin: 0 auto;
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+main h1{
+    color: #006ea4;
+    margin-bottom: 50px;
+}
+
+#recibir p{
+    font-size: 1.5rem;
+    color: #006ea4;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+#imagen{
+    width: 250px;
+    height: 200px;
+    float: left;
+}
