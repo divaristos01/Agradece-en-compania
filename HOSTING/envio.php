@@ -4,7 +4,7 @@ require 'configdbl.php';
 $conexion = new mysqli(SERVIDOR, USUARIO, PASSWORD, BBDD);
 $conexion->set_charset("utf8");
 
-$sql = "SELECT idAlumno, nombre FROM alumnos";
+$sql = "SELECT equipo, nombre FROM alumnos";
 $resultado = $conexion->query($sql);
 ?>
 
@@ -34,15 +34,15 @@ $resultado = $conexion->query($sql);
                 <select name="alumno" id="alumno">
                     <option value="">-- Selecciona un alumno --</option>
                     <?php while($fila = $resultado->fetch_array()){ ?>
-                        <option value="<?php echo $fila["idAlumno"]; ?>">
+                        <option value="<?php echo $fila["equipo"]; ?>">
                             <?php echo $fila["nombre"]; ?>
                         </option>
                     <?php } ?>
                 </select>
             </div>
             <div>
-                <label for="info">MENSAJE:</label>
-                <textarea name="info" id="info"></textarea>
+                <label for="mensaje">MENSAJE:</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
             </div>
             <button type="submit">Enviar</button>
         </form>

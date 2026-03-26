@@ -4,7 +4,7 @@
   //Necesitar hacer include o require del archivo que tiene la conexión
   require 'configdbl.php';
 
-    $correo=$_POST["correo"];
+    $usuario=$_POST["usuario"];
     $contra=$_POST["contra"];
 
   function conectar(){
@@ -15,7 +15,7 @@
   //Conecta con la base de datos
     $conexion=conectar(); 
 
-    $sql="SELECT idAlumno FROM alumnos WHERE correo='".$_POST["correo"]."' AND contrasena='".$_POST["contra"]."'";
+    $sql="SELECT equipo FROM alumnos WHERE usuario='".$_POST["usuario"]."' AND password='".$_POST["contra"]."'";
 
     /*echo $sql;
     echo '<br/>';*/
@@ -25,7 +25,7 @@
   if ($resultado->num_rows > 0){
     $fila = $resultado->fetch_array();
 
-    $_SESSION['idAlumno'] = $fila["idAlumno"];
+    $_SESSION['equipo'] = $fila["equipo"];
 
     header("Location: envio.php");
     exit();

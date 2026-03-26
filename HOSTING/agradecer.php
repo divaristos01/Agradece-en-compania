@@ -5,7 +5,7 @@
   include 'configdbl.php';
 
     $alu=$_POST["alumno"];
-    $info=$_POST["info"];
+    $mensaje=$_POST["mensaje"];
 
   function conectar(){
 	$conexion = new mysqli(SERVIDOR, USUARIO, PASSWORD, BBDD);
@@ -15,8 +15,8 @@
   //Conecta con la base de datos
     $conexion=conectar(); 
 
-    $sql="INSERT INTO agradecimientos (info, idEmisor, idReceptor) 
-        VALUES ('".$info."', '".$_SESSION["idAlumno"]."', '".$alu."')";
+    $sql="INSERT INTO agradecimientos (mensaje, idEmisor, idReceptor) 
+        VALUES ('".$mensaje."', '".$_SESSION["equipo"]."', '".$alu."')";
 
     echo $sql;
     
