@@ -1,6 +1,6 @@
 <?php
 // Conecta con la base de datos
-include 'configdbl.php';
+include 'conexion.php';
 
 // Simulación del ID recibido por URL (en producción se eliminaría la línea $_GET["id"]=2;)
 $_GET["id"] = 2;
@@ -59,7 +59,6 @@ $receptor = $fila["nombre"];
                 <img src="PRUEBAS/imagen/jesuita.jpg" alt="<?php echo $jesuita; ?>">
             </div>
             <h3><?php echo $jesuita; ?></h3>
-            <p><i><?php echo $infoJesuita; ?></i></p>
             <p><?php echo $mensaje; ?></p>
         </div>
     </main>
