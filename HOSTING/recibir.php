@@ -3,7 +3,7 @@
 include 'conexion.php';
 
 // Simulación del ID recibido por URL (en producción se eliminaría la línea $_GET["id"]=2;)
-$_GET["id"] = 2;
+$_GET["id"] = 1;
 
 // Obtiene el mensaje de agradecimiento y el id del alumno que agradece
 $sql = "select mensaje, idEmisor, idReceptor from agradecimientos
